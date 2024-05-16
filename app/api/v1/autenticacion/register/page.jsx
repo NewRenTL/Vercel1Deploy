@@ -132,7 +132,7 @@ const Register = () => {
                   <label htmlFor="Remember me">Remember me </label>
                 </div>
                 <Link
-                  href="/register"
+                  href="/api/v1/autenticacion/register"
                   className="text-white hover:text-blue-600 transition-colors duration-300 cursor-pointer"
                 >
                   Forgot Password?
@@ -147,7 +147,7 @@ const Register = () => {
               <div>
                 <span className="text-white hover:text-blue-600 transition-colors duration-300 cursor-pointer">
                   Already create an account? &nbsp;{" "}
-                  <Link href="/login"> Login</Link>
+                  <Link href="/api/v1/autenticacion/login"> Login</Link>
                 </span>
               </div>
             </form>

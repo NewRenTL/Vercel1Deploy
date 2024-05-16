@@ -64,11 +64,11 @@ const NavBar2 = () => {
             <li className="transition-colors border-b-2 border-indigo-800 md:border-none bg-[#070941] ease-in-out duration-300 px-2 py-2 md:bg-transparent hover:text-teal-300">
               <Link href="/projects">Projects</Link>
             </li>
-            {/* 
+            
             <li className="transition-colors border-b-2 border-indigo-800 md:border-none bg-[#070941] ease-in-out duration-300 px-2 py-2 md:bg-transparent hover:text-teal-300">
-              <Link href="/">Repositories</Link>
+              <Link href="/api/v1/user/programmers">Repositories</Link>
             </li>
-            */}
+           
             <li className="transition-colors border-b-2 border-indigo-800 md:border-none bg-[#070941] ease-in-out duration-300 px-2 py-2 md:bg-transparent hover:text-teal-300">
               <Link href="/api/v1/autenticacion/login">Login</Link>
             </li>

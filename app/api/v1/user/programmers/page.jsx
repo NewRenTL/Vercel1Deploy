@@ -4,9 +4,9 @@ import BarFind from "@/components/BarFind"
 import { useState, useEffect } from "react";
 import AddUsers from "@/components/AddUsers";
 import ListCard from "@/components/ListCard";
-import data from "../data/data.json"
+import data from "@/app/data/data.json"
 
-
+/*
 const Programmers = () => {
 
   const [listCards, setListCards] = useState([]);
@@ -70,8 +70,9 @@ const Programmers = () => {
     </div>
   );
 };
+*/
 
-/*
+
 const Programmers = () => {
   
   const [listFull, setListFull] = useState(data);
@@ -113,5 +114,5 @@ const Programmers = () => {
     </div>
   );
 };
-*/
+
 export default Programmers;
