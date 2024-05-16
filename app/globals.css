@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'jakarta-sans-plus';
+  font-style: normal;
+  src: url('./fonts/plusJakartaSans/PlusJakartaSans[wght].ttf');
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #070941;
+}
+
+.timeline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 75vh;
+  padding: 0 10%;
+}
+
+
+.timeline-row .title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 32px;
+}
+
+.timeline-box {
+  border-left: 2px solid #0ef;
+}
+
+.timeline-box .timeline-content {
+  position: relative;
+  padding-left: 27px;
+}
+
+.timeline-box .timeline-content::before {
+  content: "";
+  position: absolute;
+  top: 40px;
+  left: -10.5px;
+  width: 20px;
+  height: 20px;
+  background-color: #0ef;
+  border-radius: 50%;
+}
+
+.timeline-content .content {
+  padding: 24px;
+  border: 2px solid #0ef;
+  border-radius: 8px;
+  margin-bottom: 32px;
+}
+
+.content .nombre-anio {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
