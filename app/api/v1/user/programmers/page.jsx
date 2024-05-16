@@ -1,9 +1,9 @@
 "use client"
 import React from "react";
-import BarFind from "@/components/BarFind"
+import BarFind from "@/app/components/BarFind"
 import { useState, useEffect } from "react";
-import AddUsers from "@/components/AddUsers";
-import ListCard from "@/components/ListCard";
+import AddUsers from "@/app/components/AddUsers";
+import ListCard from "@/app/components/ListCard";
 import data from "@/app/data/data.json"
 
 /*

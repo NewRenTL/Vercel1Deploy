@@ -1,5 +1,5 @@
 
-import TimelineForm from '../components/TimelineForm'
+import TimelineForm from './TimelineForm'
 
 const Timeline = () => {
 

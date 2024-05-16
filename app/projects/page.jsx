@@ -1,7 +1,7 @@
 
 import React from "react";
 import Link from 'next/link'
-import Timeline from "@/components/Timeline";
+import Timeline from "@/app/components/Timeline";
 
 
 const ProjectsPage = () => {
