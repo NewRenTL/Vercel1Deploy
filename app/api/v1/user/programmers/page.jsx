@@ -1,12 +1,13 @@
 "use client"
 import React from "react";
 import BarFind from "@/app/components/BarFind"
-import { useState, useEffect } from "react";
+import { useState} from "react";
 import AddUsers from "@/app/components/AddUsers";
 import ListCard from "@/app/components/ListCard";
 import data from "@/app/data/data.json"
 
 /*
+
 const Programmers = () => {
 
   const [listCards, setListCards] = useState([]);

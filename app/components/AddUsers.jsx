@@ -4,7 +4,7 @@ import Form from "./Form";
 import { useState } from "react";
 
 
-const addUser = ({onAddCard}) => {
+const AddUsers = ({onAddCard}) => {
     const [modal, setModal] = useState(false)
 
     const openModal = () => {
@@ -33,4 +33,4 @@ const addUser = ({onAddCard}) => {
     )
 }
 
-export default addUser
+export default AddUsers
