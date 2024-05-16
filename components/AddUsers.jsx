@@ -1,4 +1,4 @@
-"uso client"
+"use client"
 import { FaUserPlus  } from "react-icons/fa";
 import Form from "./Form";
 import { useState } from "react";
